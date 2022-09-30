@@ -21,7 +21,7 @@ To interact with your dApp, Simplio is using standard Wallet Connect extension. 
 1. Integrate Wallet Connect v1 with your dApp: https://docs.walletconnect.com/quick-start/dapps/client
 2. Be sure your dApp supports these methods: https://docs.walletconnect.com/client-api
 3. Don´t forget to fill all `clientMeta` informations such as `name` or `icons` of your project.
-4. Always send `chainId` parametr in session request.
+4. Always send `chainId` parameter in session request.
 5. Be sure you are sending `eth_sign` (Sign Message) with correct parameters, otherwise we are not able to decode it on our end.
 
 ### dApp integration instructions - Wallet Connect v2
